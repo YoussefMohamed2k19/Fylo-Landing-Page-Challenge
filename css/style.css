@@ -41,11 +41,11 @@ body{
 .two-title{
     margin-bottom: 25px;
 }
-.link{
+.link, .link:hover{
     color: hsl(170, 45%, 43%);
 }
 .link img{
-    width: 21px;
+    width: 24px;
 }
 .card{
     font-family: 'Raleway', sans-serif;
