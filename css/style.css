@@ -121,6 +121,9 @@ ul.social-network i.fab {
 .logo{
     width: 250px;
 }
+.footer-list:first-child i {
+    margin-right: 10px;
+}
 @media (min-width:321px) and (max-width: 992px){
     #one{
         height: auto;
