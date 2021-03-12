@@ -100,11 +100,9 @@ ul.social-network li {
 	display: inline;
 	margin: 0 5px;
 }
-ul.social-network i{
-    color: #fff;
-}
-ul.social-network i:hover{
+ul.social-network em:hover, .circle:hover{
     color: #6b97ff;
+    border-color: #6b97ff;
 }
 ul.social-network i.fab {
     display: inline-block;
@@ -124,6 +122,21 @@ ul.social-network i.fab {
 .footer-list:first-child img {
     margin-right: 10px;
 }
+.circle {
+    display: inline-block;
+    border-radius: 100%;
+    border-width: thin;
+    border-style: solid;
+    border-color: #fff;
+    width: 2rem;
+    height: 2rem;
+    margin: auto .25rem;
+    text-align: center;
+  }
+  
+  .circle em {
+    margin: 6.9px;
+  }
 @media (min-width:321px) and (max-width: 992px){
     #one{
         height: auto;
