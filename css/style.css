@@ -1,0 +1,189 @@
+body{
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #05003d;
+}
+#one{
+    height: 100vh;
+}
+.join{
+    font-size: 12px;
+    padding: 0.6rem 2.23rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.nav-item{
+    padding: 0px 15px 0px 15px;
+}
+.nav-item:last-child{
+    padding: 0px 0px 0px 15px;
+}
+.landing-box {
+    padding-top: 6rem;
+    font-family: 'Raleway', sans-serif;
+}
+.landing-title{
+    font-weight: 700;
+    margin-top: 40px;
+}
+.landing-title span{
+    line-height: 40px;
+}
+.landing-paragraph{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.two{
+    background-color: #F8F8FE;
+    padding-bottom: 90px;
+}
+.two-title{
+    margin-bottom: 25px;
+}
+.link{
+    color: hsl(170, 45%, 43%);
+}
+.link i{
+    font-size: 14px;
+}
+.card{
+    font-family: 'Raleway', sans-serif;
+}
+.card-text{
+    font-size: 14px;
+    line-height: 25px;
+}
+.card-details h6{
+    margin-left: 60px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.card-details p{
+    font-size: 12px;
+    margin-left: 60px;
+}
+#three{
+    font-family: 'Raleway', sans-serif;
+    padding: 70px 0px 70px 0px;
+    color: #fff;
+    background-color: #575989;
+}
+#three h2{
+    padding-right: 60px;
+}
+#three p{
+    margin-right: 130px;
+}
+.start{
+    font-size: 12px;
+    padding: 0.8rem 3rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.second-form input{
+    width: 90%;
+}
+#four{
+    padding: 90px 0px 90px 0px;
+    background-color: #07043b;
+    color: #fff;
+}
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+ul.social-network i{
+    color: #fff;
+}
+ul.social-network i:hover{
+    color: #6b97ff;
+}
+ul.social-network i.fab {
+    display: inline-block;
+    border-radius: 60px;
+    padding: 0.5em 0.6em; 
+    font-size: 20px; 
+}
+.list-unstyled li{
+    padding-top: 15px;
+}
+.footer-head{
+    padding-top: 20px;
+}
+.logo{
+    width: 250px;
+}
+@media (min-width:321px) and (max-width: 992px){
+    #one{
+        height: auto;
+        padding: 0px 0px 50px 0px;
+    }
+    .navbar-nav{
+        display: -webkit-box;
+    }
+    .cover-img{
+        height: 300px !important;
+    }
+    .landing-title, .landing-paragraph{
+        text-align: center;
+    }
+    .landing-title{
+        font-size: 28px;
+        margin: 40px 30px 20px 30px;
+    }
+    .landing-paragraph{
+        margin: 0px 30px 20px 30px;
+    }
+    .first-form{
+        text-align: center;
+    }
+    .first-form input{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .join{
+        padding: 0.9rem 11.5rem;
+    }
+    .card {
+        margin: 0 auto;
+    }
+    .link{
+        display: block;
+        text-align: center;
+    }
+    #three h2 ,#three p{
+        text-align: center;
+        margin: 0px 40px 30px 40px;
+    }
+    .second-form{
+        text-align: center;
+    }
+    .second-form input{
+        width: 85%;
+        margin: 0 auto;
+    }
+    .start{
+        padding: 0.9rem 10rem;
+    }
+    #four{
+        padding: 90px 0px 40px 0px;
+    }
+    .footer-head{
+        padding-top: 0px;
+    }
+    .footer-list{
+        padding-top: 30px;
+    }
+    ul.social-network{
+        text-align: center;
+        display: block;
+    }
+}
