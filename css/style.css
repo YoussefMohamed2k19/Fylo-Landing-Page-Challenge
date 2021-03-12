@@ -44,8 +44,8 @@ body{
 .link{
     color: hsl(170, 45%, 43%);
 }
-.link i{
-    font-size: 14px;
+.link img{
+    width: 21px;
 }
 .card{
     font-family: 'Raleway', sans-serif;
