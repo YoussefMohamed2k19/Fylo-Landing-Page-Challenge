@@ -6,6 +6,8 @@
 
 Thanks for checking out this front-end coding challenge. This page started life as a Frontend Mentor Challenge. 🎉 Coded by [Youssef Mohamed](https://youssefmohamed2k19.github.io/Fylo-Landing-Page-Challenge/).
 
+For Live Preview: [Click Here](https://youssefmohamed2k19.github.io/Fylo-Landing-Page-Challenge/).
+
 [Frontend Mentor](https://www.frontendmentor.io) challenges allow you to improve your skills in a real-life workflow.
 
 **To do these challenges, you need a basic understanding of HTML, CSS and (sometimes) JavaScript.**
