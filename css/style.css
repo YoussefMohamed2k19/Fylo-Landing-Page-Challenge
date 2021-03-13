@@ -280,3 +280,14 @@ ul.social-network i.fab {
         padding: 0.7rem 5.3rem;
     }
 }
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #one{
+        height: inherit;
+        padding: 0px 0px 50px 0px;
+    }
+    .join{
+        padding: 0.6rem 1.4rem;
+    }
+  }
