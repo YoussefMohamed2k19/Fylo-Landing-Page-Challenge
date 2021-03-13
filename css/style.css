@@ -141,7 +141,7 @@ ul.social-network i.fab {
     margin: 6.9px;
   }
   .mob-curve{
-    visibility: hidden;
+    display: none;
   }
 @media (min-width:361px) and (max-width: 992px){
     #one{
@@ -241,10 +241,10 @@ ul.social-network i.fab {
         margin: 0 auto;
     }
     .desk-curve{
-        visibility: hidden;
+        display: none;
     }
     .mob-curve{
-        visibility: initial;
+        display: block;
     }
     #three h2{
         padding-right: 0px;
