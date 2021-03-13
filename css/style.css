@@ -245,6 +245,7 @@ ul.social-network i.fab {
     }
     .mob-curve{
         display: block;
+        width: 100% !important;
     }
     #three h2{
         padding-right: 0px;
