@@ -291,3 +291,69 @@ ul.social-network i.fab {
         padding: 0.6rem 1.4rem;
     }
   }
+@media (max-device-height : 480px) 
+  and (max-device-width : 320px) 
+  and (-webkit-min-device-pixel-ratio: 2){
+    #one{
+        height: auto;
+        padding: 0px 0px 50px 0px;
+    }
+    .navbar-nav{
+        display: -webkit-box;
+    }
+    .nav-item {
+        padding: 0px 5px 0px 5px;
+    }
+    .nav-link{
+        font-size: 14px;
+    }
+    .navbar-brand img{
+        height: 20px !important;
+    }
+    .cover-img{
+        height: 220px !important;
+    }
+    .card{
+        width: 15rem !important;
+        margin: 0 auto;
+    }
+    .desk-curve{
+        display: none;
+    }
+    .mob-curve{
+        display: block;
+        width: 100% !important;
+    }
+    #three h2{
+        padding-right: 0px;
+    }
+    #three h2 ,#three p{
+        text-align: center;
+        margin: 0px 10px 25px 10px;
+    }
+    .landing-box, #two, #three{
+        text-align: center;
+    }
+    .logo{
+        width: 200px;
+    }
+    ul.social-network{
+        text-align: center;
+        display: block;
+    }
+    #four{
+        padding: 90px 0px 40px 0px;
+    }
+    .footer-head{
+        padding-top: 0px;
+    }
+    .footer-list{
+        padding-top: 20px;
+    }
+    .join{
+        padding: 0.7rem 6.7rem;
+    }
+    .start{
+        padding: 0.7rem 5.3rem;
+    }
+}
